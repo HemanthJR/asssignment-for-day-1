@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container img{
+    width: 20%;
+    display: inline-block;
+}
+
+@media (max-width=720px){
+    .container{
+        width: 49%;
+        display: inline-block;
+    }
+}
